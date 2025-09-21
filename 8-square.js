@@ -1,6 +1,7 @@
 const num =Number(process.argv[2]);
-if (isNaN(num)) {
-    console.log("Not a number");
+if (isNaN(size)) {
+    console.log("Missing size");
 } else {
-    console.log(`My number: ${num}`)
+    const row = "X".repeat(size);
+    for (let i = 0; i < size; i++) console.log(row);
 }
